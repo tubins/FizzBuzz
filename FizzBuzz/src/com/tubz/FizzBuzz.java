@@ -7,9 +7,9 @@ public class FizzBuzz {
 		printFizzBuzz(100);
 	}
 
-	private static void printFizzBuzz(int i) {
+	private static void printFizzBuzz(int limit) {
 		for (int j = 1; j <= 100; j++) {
-			if ((j % 3 == 0) && (i % 5 == 0)) {
+			if ((j % 3 == 0) && (limit % 5 == 0)) {
 				System.out.println("FizzBuzz");
 			} else if (j % 3 == 0) {
 				System.out.println("Fizz");
